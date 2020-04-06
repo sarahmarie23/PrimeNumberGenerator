@@ -7,7 +7,7 @@ public class Primes {
         primes.add(3);
         primes.add(5);
         primes.add(7);
-        for (int primeTest = 8; primeTest <= GENERATEUPTO; primeTest++) {
+        for (int primeTest = 9; primeTest <= GENERATEUPTO; primeTest+=2) {
             boolean isItPrime = primeTest(primes, primeTest);
             if (isItPrime == true) {
                 primes.add(primeTest);
